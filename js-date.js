@@ -51,4 +51,4 @@ console.dir(date);
 // console.log(date);
 
 console.log(`${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`);
-console.log(`${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`);
+console.log(`${date.getHours()}:${date.getMinutes()}:${date.getSeconds(1)}`);
